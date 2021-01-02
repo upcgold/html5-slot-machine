@@ -3,11 +3,12 @@
   "description": "Modern casino slot machine game using only plain JavaScript (Web Animations API)",
   "version": "0.1.0",
   "license": "MIT",
+  "homepage": ".",
   "author": "Johannes Kronmüller <hello@johakr.me> (https://johakr.me/)",
   "repository": "johakr/html5-slot-machine",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
     "build": "webpack --mode production",
     "start": "webpack serve --mode development"
   },
